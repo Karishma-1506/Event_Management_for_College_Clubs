@@ -1,0 +1,134 @@
+/* register.css */
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e1e5a;
+  padding: 10px 50px;
+}
+
+nav img {
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: #a0c4ff;
+}
+
+.active-link {
+  background-color: white;
+  color: #1e1e5a !important;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.register-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 100px;
+  background-size: cover;
+  background-position: center;
+}
+
+.register-box {
+  background-color: #16e0e0;
+  border-radius: 30px;
+  padding: 40px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  text-align: center;
+  color: #000;
+}
+
+.register-box h2 {
+  margin-bottom: 30px;
+  font-size: 30px;
+  color: #06194d;
+  font-weight: 900;
+}
+
+.register-box label {
+  display: block;
+  text-align: left;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #06194d;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  box-shadow: 5px 5px 10px #00b8b8;
+}
+
+.register-btn {
+  background-color: white;
+  color: #06194d;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px #00000025;
+  transition: 0.3s ease-in-out;
+}
+
+.register-btn:hover {
+  background-color: #f0f0f0;
+}
+
+.login-link {
+  margin-top: 20px;
+  font-size: 16px;
+  color: white;
+}
+
+.login-link a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #1e1e5a;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 14px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
